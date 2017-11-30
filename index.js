@@ -7,4 +7,5 @@ exports.handler = (event, context, callback) => {
         statusCode: '200',
         body: 'The time in Los Angeles is: ' + currentTime.toString(),
     });
+
 };
